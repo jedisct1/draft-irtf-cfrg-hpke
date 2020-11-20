@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2020-11-17T00:54:29.586047+00:00",
+  "timestamp": "2020-11-20T06:41:42.454738+00:00",
   "repo": "cfrg/draft-irtf-cfrg-hpke",
   "labels": [
     {
@@ -2115,9 +2115,38 @@
       "labels": [],
       "body": "I started a list of implementations here:\r\n\r\n   https://github.com/cfrg/draft-irtf-cfrg-hpke/blob/master/README.md\r\n\r\nWe should fill this out with other known implementations.\r\n\r\ncc @kjacobs-moz, @davidben, @dmcardle, @raphaelrobert, @nymble, @danielhavir, @armfazh, @fredericjacobs, @mcarrickscott",
       "createdAt": "2020-11-05T01:10:01Z",
-      "updatedAt": "2020-11-05T14:55:10Z",
+      "updatedAt": "2020-11-19T11:30:57Z",
       "closedAt": null,
-      "comments": []
+      "comments": [
+        {
+          "author": "danharkins",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "Please add hpke-wrap to list of implementations:\r\n\r\nhttps://github.com/danharkins/hpke-wrap",
+          "createdAt": "2020-11-19T00:28:53Z",
+          "updatedAt": "2020-11-19T00:29:15Z"
+        },
+        {
+          "author": "chris-wood",
+          "authorAssociation": "COLLABORATOR",
+          "body": "@danharkins, can you please submit a PR with the change? (See #171 and #172 above for examples.)",
+          "createdAt": "2020-11-19T00:44:22Z",
+          "updatedAt": "2020-11-19T00:44:22Z"
+        },
+        {
+          "author": "danharkins",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "\n \u00a0 I can't create a branch. Would it be possible to give me permissions on\nthe repository?\n\n \u00a0 regards,\n\n \u00a0 Dan.\n\nOn 11/18/20 4:44 PM, Christopher Wood wrote:\n>\n> @danharkins <https://github.com/danharkins>, can you please submit a \n> PR with the change? (See #171 \n> <https://github.com/cfrg/draft-irtf-cfrg-hpke/pull/171> and #172 \n> <https://github.com/cfrg/draft-irtf-cfrg-hpke/pull/172> above for \n> examples.)\n>\n> \u2014\n> You are receiving this because you were mentioned.\n> Reply to this email directly, view it on GitHub \n> <https://github.com/cfrg/draft-irtf-cfrg-hpke/issues/170#issuecomment-730049171>, \n> or unsubscribe \n> <https://github.com/notifications/unsubscribe-auth/ABZLRMVPTX56Y4EUPUMPVK3SQRS7HANCNFSM4TKXMA2Q>.\n>\n\n-- \n\"The object of life is not to be on the side of the majority, but to\nescape finding oneself in the ranks of the insane.\" -- Marcus Aurelius\n\n",
+          "createdAt": "2020-11-19T06:12:37Z",
+          "updatedAt": "2020-11-19T06:12:37Z"
+        },
+        {
+          "author": "chris-wood",
+          "authorAssociation": "COLLABORATOR",
+          "body": "You can fork the repository and create a branch on your own copy. \n\nOn Wed, Nov 18, 2020, at 10:12 PM, Dan Harkins wrote:\n> \n> \n> \n>   I can't create a branch. Would it be possible to give me permissions on\n> the repository?\n> \n>   regards,\n> \n>   Dan.\n> \n> On 11/18/20 4:44 PM, Christopher Wood wrote:\n> >\n> > @danharkins <https://github.com/danharkins>, can you please submit a \n> > PR with the change? (See #171 \n> > <https://github.com/cfrg/draft-irtf-cfrg-hpke/pull/171> and #172 \n> > <https://github.com/cfrg/draft-irtf-cfrg-hpke/pull/172> above for \n> > examples.)\n> >\n> > \u2014\n> > You are receiving this because you were mentioned.\n> > Reply to this email directly, view it on GitHub \n> > <https://github.com/cfrg/draft-irtf-cfrg-hpke/issues/170#issuecomment-730049171>, \n> > or unsubscribe \n> > <https://github.com/notifications/unsubscribe-auth/ABZLRMVPTX56Y4EUPUMPVK3SQRS7HANCNFSM4TKXMA2Q>.\n> >\n> \n> -- \n> \"The object of life is not to be on the side of the majority, but to\n> escape finding oneself in the ranks of the insane.\" -- Marcus Aurelius\n> \n> \u2014\n> You are receiving this because you authored the thread.\n> Reply to this email directly, view it on GitHub \n> <https://github.com/cfrg/draft-irtf-cfrg-hpke/issues/170#issuecomment-730153529>, or unsubscribe <https://github.com/notifications/unsubscribe-auth/AAQSJEGNMPCX3Y2LWWIBE6LSQSZOFANCNFSM4TKXMA2Q>.\n>\n",
+          "createdAt": "2020-11-19T11:30:57Z",
+          "updatedAt": "2020-11-19T11:30:57Z"
+        }
+      ]
     }
   ],
   "pulls": [
@@ -13632,7 +13661,7 @@
       "labels": [],
       "body": "I have another implementation of HPKE in Rust on top of evercrypt/hacl* used in MLS.",
       "createdAt": "2020-11-10T10:54:43Z",
-      "updatedAt": "2020-11-17T00:54:18Z",
+      "updatedAt": "2020-11-17T06:17:06Z",
       "baseRepository": "cfrg/draft-irtf-cfrg-hpke",
       "baseRefName": "master",
       "baseRefOid": "f80409c00b5eca904d6c7cf51b74422af61dfbef",
@@ -13694,6 +13723,48 @@
           "body": "Thanks! \ud83d\udcaf ",
           "createdAt": "2020-11-17T00:53:34Z",
           "updatedAt": "2020-11-17T00:53:34Z",
+          "comments": []
+        }
+      ]
+    },
+    {
+      "number": 175,
+      "id": "MDExOlB1bGxSZXF1ZXN0NTI0MDE3NjUz",
+      "title": "Update README.md",
+      "url": "https://github.com/cfrg/draft-irtf-cfrg-hpke/pull/175",
+      "state": "MERGED",
+      "author": "danharkins",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Please add hpke-wrap to the list of implementations\r\n",
+      "createdAt": "2020-11-19T15:02:42Z",
+      "updatedAt": "2020-11-20T06:40:44Z",
+      "baseRepository": "cfrg/draft-irtf-cfrg-hpke",
+      "baseRefName": "master",
+      "baseRefOid": "c09a07085140a0368d387a4a0ffd0fa7f2f84601",
+      "headRepository": "danharkins/draft-irtf-cfrg-hpke",
+      "headRefName": "danharkins/hpke-hash",
+      "headRefOid": "c31ef6cc708e85e1b5d192c2049ab986239839ae",
+      "closedAt": "2020-11-20T06:40:44Z",
+      "mergedAt": "2020-11-20T06:40:44Z",
+      "mergedBy": "chris-wood",
+      "mergeCommit": {
+        "oid": "3bb167263c4775a7cd7a0f7905b11f9d8d1527db"
+      },
+      "comments": [],
+      "reviews": [
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NTM1MTQ5MDAy",
+          "commit": {
+            "abbreviatedOid": "c31ef6c"
+          },
+          "author": "chris-wood",
+          "authorAssociation": "COLLABORATOR",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2020-11-20T06:40:39Z",
+          "updatedAt": "2020-11-20T06:40:39Z",
           "comments": []
         }
       ]
