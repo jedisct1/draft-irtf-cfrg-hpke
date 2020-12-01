@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2020-11-20T06:41:42.454738+00:00",
+  "timestamp": "2020-12-01T15:51:57.552573+00:00",
   "repo": "cfrg/draft-irtf-cfrg-hpke",
   "labels": [
     {
@@ -2145,6 +2145,30 @@
           "body": "You can fork the repository and create a branch on your own copy. \n\nOn Wed, Nov 18, 2020, at 10:12 PM, Dan Harkins wrote:\n> \n> \n> \n>   I can't create a branch. Would it be possible to give me permissions on\n> the repository?\n> \n>   regards,\n> \n>   Dan.\n> \n> On 11/18/20 4:44 PM, Christopher Wood wrote:\n> >\n> > @danharkins <https://github.com/danharkins>, can you please submit a \n> > PR with the change? (See #171 \n> > <https://github.com/cfrg/draft-irtf-cfrg-hpke/pull/171> and #172 \n> > <https://github.com/cfrg/draft-irtf-cfrg-hpke/pull/172> above for \n> > examples.)\n> >\n> > \u2014\n> > You are receiving this because you were mentioned.\n> > Reply to this email directly, view it on GitHub \n> > <https://github.com/cfrg/draft-irtf-cfrg-hpke/issues/170#issuecomment-730049171>, \n> > or unsubscribe \n> > <https://github.com/notifications/unsubscribe-auth/ABZLRMVPTX56Y4EUPUMPVK3SQRS7HANCNFSM4TKXMA2Q>.\n> >\n> \n> -- \n> \"The object of life is not to be on the side of the majority, but to\n> escape finding oneself in the ranks of the insane.\" -- Marcus Aurelius\n> \n> \u2014\n> You are receiving this because you authored the thread.\n> Reply to this email directly, view it on GitHub \n> <https://github.com/cfrg/draft-irtf-cfrg-hpke/issues/170#issuecomment-730153529>, or unsubscribe <https://github.com/notifications/unsubscribe-auth/AAQSJEGNMPCX3Y2LWWIBE6LSQSZOFANCNFSM4TKXMA2Q>.\n>\n",
           "createdAt": "2020-11-19T11:30:57Z",
           "updatedAt": "2020-11-19T11:30:57Z"
+        }
+      ]
+    },
+    {
+      "number": 176,
+      "id": "MDU6SXNzdWU3NDgzMjM0NTI=",
+      "title": "Add (back?) DeserializePublicKey()",
+      "url": "https://github.com/cfrg/draft-irtf-cfrg-hpke/issues/176",
+      "state": "OPEN",
+      "author": "chris-wood",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "This is absent from the KEM interface, though implicit throughout the document. Since we list DeserializePrivateKey separately, we might as well add this to the KEM interface, too. ",
+      "createdAt": "2020-11-22T19:12:57Z",
+      "updatedAt": "2020-11-23T09:26:44Z",
+      "closedAt": null,
+      "comments": [
+        {
+          "author": "blipp",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "I don't see an issue with adding it. For the record, it is only mentioned once in the document, https://github.com/cfrg/draft-irtf-cfrg-hpke/blob/master/draft-irtf-cfrg-hpke.md#serializepublickey-and-deserializepublickey.",
+          "createdAt": "2020-11-23T09:26:44Z",
+          "updatedAt": "2020-11-23T09:26:44Z"
         }
       ]
     }
@@ -13768,6 +13792,32 @@
           "comments": []
         }
       ]
+    },
+    {
+      "number": 177,
+      "id": "MDExOlB1bGxSZXF1ZXN0NTI4ODIzMzA2",
+      "title": "Added some clarification to validation things",
+      "url": "https://github.com/cfrg/draft-irtf-cfrg-hpke/pull/177",
+      "state": "OPEN",
+      "author": "rozbb",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Nothing big here",
+      "createdAt": "2020-11-28T00:45:52Z",
+      "updatedAt": "2020-11-28T00:45:52Z",
+      "baseRepository": "cfrg/draft-irtf-cfrg-hpke",
+      "baseRefName": "master",
+      "baseRefOid": "3bb167263c4775a7cd7a0f7905b11f9d8d1527db",
+      "headRepository": "rozbb/draft-irtf-cfrg-hpke",
+      "headRefName": "validation-tweaks",
+      "headRefOid": "2856194729bb628a09ab257f3a16a5cbb2eaf6d4",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
+      "reviews": []
     }
   ]
 }
