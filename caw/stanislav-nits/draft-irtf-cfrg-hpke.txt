@@ -1417,10 +1417,10 @@ Internet-Draft                    HPKE                     December 2020
    recipient keys are the same.
 
    As noted in Section 8.6, HPKE does not provide forward secrecy.  In
-   the Base mode, the secrecy properties are only expected to hold if
-   the recipient private key "skR" is not compromised at any point in
-   time.  In the PSK and AuthPSK modes, the secrecy properties are
-   expected to hold if the recipient private key "skR" and the pre-
+   the Base and Auth modes, the secrecy properties are only expected to
+   hold if the recipient private key "skR" is not compromised at any
+   point in time.  In the PSK and AuthPSK modes, the secrecy properties
+   are expected to hold if the recipient private key "skR" and the pre-
    shared key are not both compromised at any point in time.
 
    In the Auth mode, sender authentication is generally expected to hold

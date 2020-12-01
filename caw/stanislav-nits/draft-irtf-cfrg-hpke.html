@@ -2522,7 +2522,7 @@ AuthPSK modes<a href="#section-8.1-2.3" class="pilcrow">¶</a>
 honest recipient keys, as well as if the honest sender and honest
 recipient keys are the same.<a href="#section-8.1-3" class="pilcrow">¶</a></p>
 <p id="section-8.1-4">As noted in <a href="#non-goals" class="xref">Section 8.6</a>, HPKE does not provide forward secrecy.
-In the Base mode, the secrecy properties are only expected to
+In the Base and Auth modes, the secrecy properties are only expected to
 hold if the recipient private key <code>skR</code> is not compromised at any point
 in time. In the PSK and AuthPSK modes, the secrecy properties are
 expected to hold if the recipient private key <code>skR</code> and the pre-shared key
