@@ -1963,8 +1963,8 @@ Internet-Draft                    HPKE                     December 2020
 
 
    [ABHKLR20] Alwen, J., Blanchet, B., Hauck, E., Kiltz, E., Lipp, B.,
-              and D. Riepel, "A Formal Analysis of the HPKE Standard",
-              2020.
+              and D. Riepel, "Analysing the HPKE Standard", 2020,
+              <https://eprint.iacr.org/2020/1499>.
 
    [ANSI]     American National Standards Institute, "ANSI X9.63 Public
               Key Cryptography for the Financial Services Industry --
