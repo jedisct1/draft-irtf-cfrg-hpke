@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2020-12-01T15:51:57.552573+00:00",
+  "timestamp": "2020-12-02T14:26:51.936037+00:00",
   "repo": "cfrg/draft-irtf-cfrg-hpke",
   "labels": [
     {
@@ -13798,26 +13798,277 @@
       "id": "MDExOlB1bGxSZXF1ZXN0NTI4ODIzMzA2",
       "title": "Added some clarification to validation things",
       "url": "https://github.com/cfrg/draft-irtf-cfrg-hpke/pull/177",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "rozbb",
       "authorAssociation": "CONTRIBUTOR",
       "assignees": [],
       "labels": [],
       "body": "Nothing big here",
       "createdAt": "2020-11-28T00:45:52Z",
-      "updatedAt": "2020-11-28T00:45:52Z",
+      "updatedAt": "2020-12-01T17:37:52Z",
       "baseRepository": "cfrg/draft-irtf-cfrg-hpke",
       "baseRefName": "master",
       "baseRefOid": "3bb167263c4775a7cd7a0f7905b11f9d8d1527db",
       "headRepository": "rozbb/draft-irtf-cfrg-hpke",
       "headRefName": "validation-tweaks",
-      "headRefOid": "2856194729bb628a09ab257f3a16a5cbb2eaf6d4",
+      "headRefOid": "58d42515a8f254cb80426a2b8142bd0706ce0962",
+      "closedAt": "2020-12-01T17:37:52Z",
+      "mergedAt": "2020-12-01T17:37:52Z",
+      "mergedBy": "chris-wood",
+      "mergeCommit": {
+        "oid": "f0d5e93b9cf33107b9b305d033afa7636f5be883"
+      },
+      "comments": [],
+      "reviews": [
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NTQyMTQwODEz",
+          "commit": {
+            "abbreviatedOid": "2856194"
+          },
+          "author": "chris-wood",
+          "authorAssociation": "COLLABORATOR",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2020-12-01T17:36:44Z",
+          "updatedAt": "2020-12-01T17:37:34Z",
+          "comments": [
+            {
+              "originalPosition": 9,
+              "body": "```suggestion\r\n  byte strings in big-endian byte order.\r\n```",
+              "createdAt": "2020-12-01T17:36:45Z",
+              "updatedAt": "2020-12-01T17:37:47Z"
+            },
+            {
+              "originalPosition": 16,
+              "body": "```suggestion\r\nAs per {{SECG}}, P-256, P-384, and P-521 private keys are field elements in the\r\n```",
+              "createdAt": "2020-12-01T17:36:59Z",
+              "updatedAt": "2020-12-01T17:37:47Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 178,
+      "id": "MDExOlB1bGxSZXF1ZXN0NTMwNDA2MjUx",
+      "title": "Fix editorial issues based on Stanislav's feedback",
+      "url": "https://github.com/cfrg/draft-irtf-cfrg-hpke/pull/178",
+      "state": "OPEN",
+      "author": "chris-wood",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Also, fix idnit issues outside of the test vectors.\r\n\r\ncc @blipp ",
+      "createdAt": "2020-12-01T16:00:11Z",
+      "updatedAt": "2020-12-02T13:14:41Z",
+      "baseRepository": "cfrg/draft-irtf-cfrg-hpke",
+      "baseRefName": "master",
+      "baseRefOid": "3bb167263c4775a7cd7a0f7905b11f9d8d1527db",
+      "headRepository": "cfrg/draft-irtf-cfrg-hpke",
+      "headRefName": "caw/stanislav-nits",
+      "headRefOid": "79da75966b83c1500be11b007889a904b0d5aa7c",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
+      "reviews": [
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NTQyODE5NjM1",
+          "commit": {
+            "abbreviatedOid": "79da759"
+          },
+          "author": "blipp",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2020-12-02T13:12:15Z",
+          "updatedAt": "2020-12-02T13:12:15Z",
+          "comments": [
+            {
+              "originalPosition": 235,
+              "body": "Good catch!",
+              "createdAt": "2020-12-02T13:12:15Z",
+              "updatedAt": "2020-12-02T13:12:15Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NTQyODE5OTEz",
+          "commit": {
+            "abbreviatedOid": "79da759"
+          },
+          "author": "blipp",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2020-12-02T13:12:37Z",
+          "updatedAt": "2020-12-02T13:12:37Z",
+          "comments": [
+            {
+              "originalPosition": 252,
+              "body": "```suggestion\r\nJo\u00ebl Alwen,\r\n```",
+              "createdAt": "2020-12-02T13:12:37Z",
+              "updatedAt": "2020-12-02T13:12:37Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NTQyODIxNTU0",
+          "commit": {
+            "abbreviatedOid": "79da759"
+          },
+          "author": "blipp",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2020-12-02T13:14:41Z",
+          "updatedAt": "2020-12-02T13:14:41Z",
+          "comments": [
+            {
+              "originalPosition": 256,
+              "body": "I'd like to add\r\n```\r\nBruno Blanchet,\r\nEduard Hauck,\r\nDoreen Riepel,\r\n```\r\nCould you please add them to this PR? :) (at the right spot according to alphabetic order)",
+              "createdAt": "2020-12-02T13:14:41Z",
+              "updatedAt": "2020-12-02T13:14:41Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 179,
+      "id": "MDExOlB1bGxSZXF1ZXN0NTMwNDY3NDAy",
+      "title": "Add DeserializePublicKey to match SerializePublicKey.",
+      "url": "https://github.com/cfrg/draft-irtf-cfrg-hpke/pull/179",
+      "state": "OPEN",
+      "author": "chris-wood",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Closes #176.\r\n\r\ncc @blipp ",
+      "createdAt": "2020-12-01T17:40:01Z",
+      "updatedAt": "2020-12-02T14:26:16Z",
+      "baseRepository": "cfrg/draft-irtf-cfrg-hpke",
+      "baseRefName": "master",
+      "baseRefOid": "f0d5e93b9cf33107b9b305d033afa7636f5be883",
+      "headRepository": "cfrg/draft-irtf-cfrg-hpke",
+      "headRefName": "caw/add-deserialize-public-key",
+      "headRefOid": "941ebc3f0075669d089963069edf260c8bb11f38",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
+      "reviews": [
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NTQyODE4MDYw",
+          "commit": {
+            "abbreviatedOid": "39a3314"
+          },
+          "author": "blipp",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2020-12-02T13:10:21Z",
+          "updatedAt": "2020-12-02T13:10:22Z",
+          "comments": [
+            {
+              "originalPosition": 6,
+              "body": "```suggestion\r\n  - `DeserializePublicKey(pkXm)`: Parse a byte string of length `Npk` to recover a\r\n    public key. This function can raise a `DeserializeError` error upon `pkXm`\r\n    deserialization failure.\r\n```\r\n\r\n`enc` is used to denote an encapsulation of a KEM shared secret. Here we're talking about a public key. (An not in all KEMs is `enc` a serialized (ephemeral) public key.) In DHKEM we add `m` to denote a serialized value, so we could do the same here. Although `m` comes from the time when we still used \u201cMarshal\u201d instead of \u201cSerialize\u201d. I don't know if it's still worth to change that to a `s` for example.",
+              "createdAt": "2020-12-02T13:10:21Z",
+              "updatedAt": "2020-12-02T14:26:16Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 180,
+      "id": "MDExOlB1bGxSZXF1ZXN0NTMxMDAyMTY1",
+      "title": "Add link to eprint and update title",
+      "url": "https://github.com/cfrg/draft-irtf-cfrg-hpke/pull/180",
+      "state": "OPEN",
+      "author": "blipp",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [],
+      "body": "The eprint is now public, so this PR adds a link and updates the paper's title.",
+      "createdAt": "2020-12-02T13:03:17Z",
+      "updatedAt": "2020-12-02T13:03:17Z",
+      "baseRepository": "cfrg/draft-irtf-cfrg-hpke",
+      "baseRefName": "master",
+      "baseRefOid": "f0d5e93b9cf33107b9b305d033afa7636f5be883",
+      "headRepository": "blipp/draft-irtf-cfrg-hpke",
+      "headRefName": "blipp_paper",
+      "headRefOid": "3e871cd3bbaf61674638808005796693e9fb085d",
       "closedAt": null,
       "mergedAt": null,
       "mergedBy": null,
       "mergeCommit": null,
       "comments": [],
       "reviews": []
+    },
+    {
+      "number": 181,
+      "id": "MDExOlB1bGxSZXF1ZXN0NTMxMDE4MzM1",
+      "title": "Two more editorial fixes",
+      "url": "https://github.com/cfrg/draft-irtf-cfrg-hpke/pull/181",
+      "state": "MERGED",
+      "author": "blipp",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2020-12-02T13:30:35Z",
+      "updatedAt": "2020-12-02T14:25:52Z",
+      "baseRepository": "cfrg/draft-irtf-cfrg-hpke",
+      "baseRefName": "master",
+      "baseRefOid": "f0d5e93b9cf33107b9b305d033afa7636f5be883",
+      "headRepository": "blipp/draft-irtf-cfrg-hpke",
+      "headRefName": "stanislav_feedback",
+      "headRefOid": "d5123f6451090c27fb4f0930d5b3b5759f7d5b22",
+      "closedAt": "2020-12-02T14:25:52Z",
+      "mergedAt": "2020-12-02T14:25:52Z",
+      "mergedBy": "chris-wood",
+      "mergeCommit": {
+        "oid": "c555dd80664a088005ade4d86b13db9fd5100f5c"
+      },
+      "comments": [],
+      "reviews": [
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NTQyODg1NjY0",
+          "commit": {
+            "abbreviatedOid": "8457690"
+          },
+          "author": "chris-wood",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2020-12-02T14:25:22Z",
+          "updatedAt": "2020-12-02T14:25:23Z",
+          "comments": [
+            {
+              "originalPosition": 9,
+              "body": "```suggestion\r\n  key `skX`.\r\n```",
+              "createdAt": "2020-12-02T14:25:22Z",
+              "updatedAt": "2020-12-02T14:25:27Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NTQyODg2MDY3",
+          "commit": {
+            "abbreviatedOid": "8457690"
+          },
+          "author": "chris-wood",
+          "authorAssociation": "COLLABORATOR",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2020-12-02T14:25:45Z",
+          "updatedAt": "2020-12-02T14:25:45Z",
+          "comments": []
+        }
+      ]
     }
   ]
 }
