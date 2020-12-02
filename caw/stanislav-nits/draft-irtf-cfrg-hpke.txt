@@ -1921,12 +1921,12 @@ Internet-Draft                    HPKE                     December 2020
 11.  Acknowledgements
 
    The authors would like to thank Joel Alwen, Jean-Philippe Aumasson,
-   David Benjamin, Benjamin Beurdouche, Frank Denis, Stephen Farrell,
-   Scott Fluhrer, Scott Hollenbeck, Kevin Jacobs, Burt Kaliski, Eike
-   Kiltz, Julia Len, John Mattsson, Christopher Patton, Raphael Robert,
-   Michael Rosenberg, Michael Scott, Steven Valdez, Riad Wahby, and
-   other contributors in the CFRG for helpful feedback that greatly
-   improved this document.
+   David Benjamin, Benjamin Beurdouche, Bruno Blanchet, Frank Denis,
+   Stephen Farrell, Scott Fluhrer, Eduard Hauck, Scott Hollenbeck, Kevin
+   Jacobs, Burt Kaliski, Eike Kiltz, Julia Len, John Mattsson,
+   Christopher Patton, Doreen Riepel, Raphael Robert, Michael Rosenberg,
+   Michael Scott, Steven Valdez, Riad Wahby, and other contributors in
+   the CFRG for helpful feedback that greatly improved this document.
 
 12.  References
 
